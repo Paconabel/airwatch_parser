@@ -1,0 +1,106 @@
+{
+  "Devices": [
+    {
+      "DeviceId": 123456789,
+      "Udid": "SOME_UDID",
+      "SerialNumber": "SOME_SERIAL_NUMBER",
+      "EnrollmentUserName": "user.name",
+      "AssetNumber": "ASSET_NUMBER",
+      "CustomAttributes": [
+        {
+            "Name": "Uptime",
+            "Value": "11_11  up 11 days, 11_11, 1 users, load averages_ 1.11 1.11 1.11",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "iCloud",
+            "Value": "name=mailname@mail.com",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Battery Status",
+            "Value": "OK",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "CPU",
+            "Value": "Intel(R) Core(TM) i5-7400 CPU @ 3.00ghz",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Hostname",
+            "Value": "HOSTNAME_VALUE",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Battery Cyclecount",
+            "Value": "CYCLE_COUNTER",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Os minor build version",
+            "Value": "BUILD_VERSION_VALUE",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        }
+      ]
+    },
+    {
+      "DeviceId": 987654321,
+      "Udid": "SOME_OTHER_UDID",
+      "SerialNumber": "SOME_OTHER_SERIAL_NUMBER",
+      "EnrollmentUserName": "other_user.name",
+      "AssetNumber": "OTHER_ASSET_NUMBER",
+      "CustomAttributes": [
+        {
+            "Name": "Uptime",
+            "Value": "22_22  up 22 days, 22_22, 2 users, load averages_ 2.22 2.22 2.22",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "iCloud",
+            "Value": "other_name=othermailname@mail.com",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Battery Status",
+            "Value": "OK",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "CPU",
+            "Value": "intel(R) Core(TM) i7-4510 CPU @ 2.00ghz",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Hostname",
+            "Value": "OTHER_HOSTNAME_VALUE",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Battery Cyclecount",
+            "Value": "OTHER_CYCLE_COUNTER",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        },
+        {
+            "Name": "Os minor build version",
+            "Value": "OTHER_BUILD_VERSION_VALUE",
+            "Source": "Device Sourced",
+            "Application": "AirWatchAgent"
+        }
+      ]
+    }
+  ]
+}
